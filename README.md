@@ -16,7 +16,6 @@ A cloud-native solution for automating backups and disaster recovery using serve
 **AWS Services Used:**
 - AWS Lambda (for backup/restore logic)
 - Amazon S3 (for storing backup files)
-- DynamoDB (for tracking metadata and job history)
 - EventBridge (for scheduled tasks)
 - CloudWatch (for monitoring and alerts)
 - API Gateway (for exposing endpoints to dashboard)
