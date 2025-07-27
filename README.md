@@ -1,9 +1,9 @@
 
-# Serverless Backup and Recovery System ☁️🛡️
+# Serverless Backup and Recovery System 
 
 A cloud-native solution for automating backups and disaster recovery using serverless architecture on AWS. This project demonstrates how to build a scalable, event-driven system that securely backs up data and enables reliable restoration — without managing any servers.
 
-## 🚀 Key Features
+## Key Features
 
 - Fully **serverless architecture** using AWS Lambda, S3, DynamoDB, and EventBridge
 - Automated **backup scheduling and execution**
@@ -11,7 +11,7 @@ A cloud-native solution for automating backups and disaster recovery using serve
 - Real-time **monitoring and logging** (via CloudWatch)
 - Lightweight **web dashboard** for triggering and managing backups
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 **AWS Services Used:**
 - AWS Lambda (for backup/restore logic)
@@ -21,7 +21,7 @@ A cloud-native solution for automating backups and disaster recovery using serve
 - API Gateway (for exposing endpoints to dashboard)
 - IAM (for permission control)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Serverless_backup_and_recovery/
@@ -38,14 +38,14 @@ Serverless_backup_and_recovery/
 └── requirements.txt              # Dependencies for Lambda functions
 ```
 
-## ⚙️ How It Works
+## How It Works
 
 1. **User triggers** a backup from the dashboard or by schedule (EventBridge)
 2. **Lambda function** compresses and uploads files to S3
 3. **Metadata is logged** in DynamoDB for traceability
 4. **Restore** function downloads the backup from S3 and restores it on command
 
-## 🧾 Setup Instructions
+## Setup Instructions
 
 ### 1. Deploy Infrastructure (via AWS SAM or manually)
 ```bash
@@ -67,17 +67,17 @@ pip install -r requirements.txt -t lambda/
 
 Open `dashboard/index.html` in your browser. Ensure CORS and API Gateway permissions are properly configured.
 
-## 🛡️ Security Best Practices
+##  Security Best Practices
 
 - Use IAM roles with least privilege
 - Enable server-side encryption for S3 and DynamoDB
 - Log API activity with CloudTrail
 
-## 👨‍💻 Author
+## Author
 
 **Hemanth Kumar**  
 GitHub: [@BL-EN-U4AIE22138-HemanthKumar](https://github.com/BL-EN-U4AIE22138-HemanthKumar)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
