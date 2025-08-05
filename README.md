@@ -76,7 +76,6 @@ Open `dashboard/index.html` in your browser. Ensure CORS and API Gateway permiss
 ## Author
 
 **Hemanth Kumar**  
-GitHub: [@BL-EN-U4AIE22138-HemanthKumar](https://github.com/BL-EN-U4AIE22138-HemanthKumar)
 
 ## License
 
